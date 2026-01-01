@@ -1,6 +1,6 @@
 {
   "studioInfo": {
-    "foundedYear": "2026",
+    "foundedYear": "2025",
     "location": "Butuan City, Caraga Region",
     "university": "Caraga State University",
     "campus": "Main Campus",
@@ -22,20 +22,20 @@
   },
   "teamMembers": [
     {
-      "name": "Maria Santos",
-      "role": "Studio Director & Creative Lead",
+      "name": "Centmarde J. Campado",
+      "role": "CEO",
       "description": "Cultural anthropologist turned game director, specializing in Filipino folklore adaptation",
       "avatar": "/images/team/maria-santos.jpg",
       "fallbackIcon": "mdi-account-star",
-      "skills": ["Game Design", "Cultural Research", "Creative Direction"],
+      "skills": ["Game Design", "development", "System Architecture"],
       "social": {
         "linkedin": "#",
-        "email": "maria@thunderstack.ph"
+        "email": "centmarde.campado@gmail.com"
       }
     },
     {
-      "name": "Jose Dela Cruz",
-      "role": "Lead Developer",
+      "name": "Lloyd Bill Lariosa",
+      "role": "CTO",
       "description": "Full-stack developer with expertise in game engines and cultural preservation technology",
       "avatar": "/images/team/jose-delacruz.jpg",
       "fallbackIcon": "mdi-code-tags",
@@ -47,7 +47,7 @@
       }
     },
     {
-      "name": "Ana Reyes",
+      "name": "Mark Jamisolla",
       "role": "Cultural Consultant & Story Designer",
       "description": "Caraga region historian and indigenous knowledge keeper, ensuring authentic representation",
       "avatar": "/images/team/ana-reyes.jpg",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "name": "Carlos Mendoza",
+      "name": "Mardz Allyna C. Lidasan",
       "role": "Art Director",
       "description": "Visual artist specializing in Filipino cultural motifs and modern game art",
       "avatar": "/images/team/carlos-mendoza.jpg",
