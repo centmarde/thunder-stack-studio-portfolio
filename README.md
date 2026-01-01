@@ -1,4 +1,4 @@
-# 🚀 Vue 3 + Vuetify + Supabase Thesis Template
+# ⚡ ThunderStack - Gaming Studio Portfolio
 
 <div align="center">
 
@@ -8,40 +8,37 @@
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 
-### 🎯 **Zero-Config Auto-Layout Wrapper for Cross-Platform Development**
+### � **Cultural Gaming Excellence Portfolio**
 
-*Automate your layout phase by simply configuring JSON - No manual component wiring needed!*
+*Modern gaming studio portfolio showcasing cultural gaming experiences with Vue 3 + Vuetify*
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/centmarde/thesis-template-web-reusable?quickstart=1)
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/centmarde/thesis-template-web-reusable)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/centmarde/thunder-stack-studio-portfolio)
 
 </div>
 
 ---
 
-## ✨ **What Makes This Special?**
+## ✨ **What Makes ThunderStack Special?**
 
-This is a **data-driven, configuration-first** Vue 3 application that eliminates the tedious layout development phase. Instead of manually coding components and layouts, you simply update `external-page.json` and watch your application transform automatically.
+ThunderStack is a modern gaming studio portfolio built with Vue 3 and Vuetify, featuring a **data-driven architecture** that showcases cultural gaming experiences. The application emphasizes responsive design, smooth animations, and professional gaming industry presentation.
 
-### 🎨 **Key Innovation: JSON-Driven UI**
-```json
-{
-  "title": "Your App Title",
-  "features": [...],
-  "navigation": [...],
-  "theme": { "primary": "#1976D2" }
-}
-```
-↓ *Automatically becomes* ↓
-```vue
-<template>
-  <!-- Fully functional, responsive UI components -->
-  <v-app>
-    <v-navigation-drawer>...</v-navigation-drawer>
-    <v-app-bar>{{ data.title }}</v-app-bar>
-    <v-main>...</v-main>
-  </v-app>
-</template>
+### 🎮 **Key Features**
+- **🎯 Fixed Navigation**: Always-visible navbar with smooth scrolling to sections
+- **🎨 Modern UI**: Clean Vuetify Material Design components
+- **📱 Responsive Design**: Optimized for mobile, tablet, and desktop
+- **🌙 Theme Support**: Light/Dark mode toggle with persistent preferences
+- **🎭 Cultural Focus**: Highlighting cultural gaming excellence and innovation
+- **⚡ Performance**: Fast loading with Vite build optimization
+
+### 🏗️ **Modular Component Architecture**
+```typescript
+// Smart Layout Wrappers
+OuterLayoutWrapper  // Public pages (Landing, Portfolio)
+InnerLayoutWrapper  // Authenticated pages (Admin, Dashboard)
+
+// Navigation Variants
+OuterNavbar1-4     // Different navbar styles for public pages
+InnerNavbar1-4     // Admin/Dashboard navigation variants
 ```
 
 ---
@@ -73,7 +70,7 @@ This is a **data-driven, configuration-first** Vue 3 application that eliminates
 </tr>
 </table>
 
-### **🤖 Zero-Config Automation**
+### **🤖 Development Automation**
 | Plugin | Purpose | Auto-Generated |
 |--------|---------|----------------|
 | `unplugin-vue-router` | 📁 **File-based routing** | Routes from `src/pages/*.vue` |
@@ -82,25 +79,33 @@ This is a **data-driven, configuration-first** Vue 3 application that eliminates
 | `unplugin-auto-import` | ⚡ **Composables** | Vue/Pinia/Router APIs without imports |
 | `unplugin-fonts` | 🔤 **Typography** | Google Fonts auto-loading |
 
+### **🎮 Gaming Portfolio Features**
+- **🏠 Landing Page**: Hero section with gaming studio introduction
+- **🎯 Vision & Mission**: Cultural gaming philosophy showcase
+- **👥 About Us**: Team presentation and studio background
+- **💼 Portfolio**: Games and projects gallery
+- **🔐 Admin Panel**: Content management system
+- **📊 User Management**: Role-based access control
+
 ---
 
-## 🏗️ **Data-Driven Architecture**
+## 🏗️ **ThunderStack Architecture**
 
-### **Single Source of Truth: `external-page.json`**
+### **JSON-Driven Content Management**
 ```mermaid
 graph TD
-    A[external-page.json] --> B[Controller Layer]
-    B --> C[Reactive State]
-    C --> D[Vuetify Components]
-    D --> E[Auto-Generated UI]
+    A[JSON Data Files] --> B[Controller Layer]
+    B --> C[Pinia Stores]
+    C --> D[Vue Components]
+    D --> E[Responsive UI]
     
-    A --> F[Theme Configuration]
-    A --> G[Navigation Structure]
-    A --> H[Content Data]
-    A --> I[Feature Flags]
+    A --> F[about-us.json]
+    A --> G[portfolio.json]
+    A --> H[vision-mission.json]
+    A --> I[external-page.json]
 ```
 
-### **Controller Pattern**
+### **Controller Pattern for Data Management**
 ```typescript
 // src/controller/landingController.ts
 export function useLandingController() {
@@ -117,6 +122,12 @@ export function useLandingController() {
 }
 ```
 
+### **Navigation System**
+- **OuterNavbar3**: Fixed position navbar with smooth scrolling
+- **Mobile Drawer**: Responsive navigation for mobile devices
+- **Theme Toggle**: Persistent light/dark mode switching
+- **Scroll Animations**: Dynamic navbar behavior based on scroll position
+
 ---
 
 ## 🚀 **Quick Start**
@@ -128,21 +139,29 @@ export function useLandingController() {
 ### **Installation**
 ```bash
 # Clone the repository
-git clone https://github.com/centmarde/thesis-template-web-reusable.git
-cd thesis-template-web-reusable
+git clone https://github.com/centmarde/thunder-stack-studio-portfolio.git
+cd ThunderStack
 
 # Install dependencies
 npm install
 
 # Start development server
 npm run dev
+
+# Build for production
+npm run build
 ```
 
-### **Customize Your App**
-1. **📝 Edit Configuration**: Modify `public/data/external-page.json`
-2. **🎨 Adjust Theme**: Update theme colors in the JSON
+### **Customize Your Gaming Portfolio**
+1. **📝 Content Management**: Update JSON files in `public/data/`
+   - `about-us.json` - Team and studio information
+   - `portfolio.json` - Games and projects showcase
+   - `vision-mission.json` - Studio philosophy and goals
+   - `external-page.json` - Landing page configuration
+
+2. **🎨 Branding**: Modify theme colors and logo in configurations
 3. **📄 Add Pages**: Create `.vue` files in `src/pages/` (auto-routed)
-4. **🧩 Add Components**: Drop components in `src/components/` (auto-imported)
+4. **🧩 Components**: Add custom components in `src/components/`
 
 ---
 
@@ -151,58 +170,84 @@ npm run dev
 ```
 src/
 ├── 📱 components/
-│   ├── auth/           # Authentication components
-│   ├── common/         # Shared UI components
-│   └── [feature]/      # Feature-specific components
-├── 🎛️ controller/      # Data fetching & state management
-├── 📄 pages/           # Auto-routed page components
-├── 🗃️ stores/          # Pinia state stores
-├── 🎨 layouts/         # Layout wrapper components
-├── 🔧 plugins/         # Vue plugin configurations
-└── 📚 lib/             # Utility libraries & services
+│   ├── auth/              # Authentication forms & modals
+│   ├── common/           # Shared UI components
+│   │   ├── outerNavbars/ # Public navigation variants
+│   │   ├── insideNavbar/ # Admin navigation variants
+│   │   ├── outerFooters/ # Public page footers
+│   │   └── sideBar/      # Admin sidebar navigation
+│   └── admin/            # Admin panel components
+├── 🎛️ controller/        # Data fetching & state management
+├── 📄 pages/             # Auto-routed page components
+│   ├── admin/            # Admin panel pages
+│   ├── hometab/          # Home dashboard tabs
+│   └── otherTab/         # Additional feature tabs
+├── 🗃️ stores/            # Pinia state stores
+├── 🎨 layouts/           # Layout wrapper components
+├── 🔧 plugins/           # Vue plugin configurations
+├── 📚 lib/               # Supabase & utility libraries
+├── 🎯 composables/       # Vue composables (useTheme)
+└── 🎨 themes/            # Vuetify theme configurations
 
 public/
 └── 📊 data/
-    └── external-page.json  # 🎯 Main configuration file
+    ├── about-us.json        # Team & studio info
+    ├── portfolio.json       # Games & projects
+    ├── vision-mission.json  # Studio philosophy
+    └── external-page.json   # 🎯 Landing page config
 ```
 
 ---
 
-## 💡 **Core Philosophy**
+## 💡 **ThunderStack Philosophy**
 
-### **🎯 Configuration Over Code**
-- **Data-Driven**: UI derives from JSON configuration
-- **Zero Manual Wiring**: Components auto-connect to data
-- **Rapid Prototyping**: Change JSON, see instant results
+### **� Gaming-First Design**
+- **Cultural Focus**: Emphasizing cultural gaming excellence
+- **Professional Showcase**: Industry-standard portfolio presentation
+- **User Experience**: Smooth animations and intuitive navigation
 
-### **🎨 Vuetify-First Styling**
-- **Component-Based**: No custom CSS classes
-- **Design System**: Consistent Material Design
-- **Responsive**: Built-in breakpoint handling
+### **🎨 Modern Vue 3 Patterns**
+- **Composition API**: `<script setup>` syntax throughout
+- **TypeScript**: Full type safety and developer experience
+- **Auto-imports**: Zero-import development workflow
+- **Responsive Design**: Mobile-first, progressive enhancement
 
-### **🔄 MCP-Enhanced Development**
-- **Vuetify MCP**: Component API documentation
-- **Context7**: External library references  
-- **Sequential Thinking**: Complex problem solving
-- **Playwright**: Automated UI testing
+### **� Performance Optimized**
+- **Fixed Navigation**: Always-accessible navigation with smooth scrolling
+- **Lazy Loading**: Components and routes loaded on demand
+- **Modern Build**: Vite-powered development and production builds
+- **Theme Persistence**: User preferences saved across sessions
+
+### **🎯 Key UI Features**
+- **Fixed Navbar**: `OuterNavbar3` with always-visible positioning
+- **Theme Toggle**: Light/Dark mode with smooth transitions
+- **Responsive Mobile Menu**: Collapsible navigation drawer
+- **Smooth Scrolling**: Anchor-based navigation within pages
 
 ---
 
-## 🤝 **Contributing & Recommendations**
+## 🤝 **Contributing to ThunderStack**
 
-We welcome contributions and recommendations! This project is designed to:
+We welcome contributions to improve the ThunderStack gaming portfolio template! This project serves as a foundation for gaming studios to showcase their work professionally.
 
-- **🚀 Accelerate development** by eliminating boilerplate
-- **📱 Support cross-platform** deployment (Web, PWA, Mobile)
-- **🔧 Simplify maintenance** through configuration-driven updates
-- **📈 Scale efficiently** with modern Vue 3 patterns
+### **Project Goals**
+- **🎮 Gaming Industry Focus**: Tailored for gaming studios and developers
+- **📱 Cross-Platform Ready**: Web, PWA, and mobile deployment
+- **🎨 Modern Design**: Contemporary UI patterns and animations
+- **📈 Performance First**: Optimized loading and user experience
 
 ### **Contribution Areas**
-- 🎨 **UI Components**: New Vuetify component patterns
-- 📊 **Data Schemas**: Enhanced JSON configuration options
-- 🔌 **Integrations**: Additional service integrations
-- 📱 **Platform Support**: Mobile/desktop optimizations
-- 📚 **Documentation**: Usage examples and tutorials
+- � **Gaming Components**: Specialized components for game showcases
+- 🎨 **UI/UX Improvements**: Enhanced visual design and interactions
+- 📊 **Content Management**: Better JSON schema for portfolio data
+- 🔌 **Integrations**: Gaming platform APIs (Steam, itch.io, etc.)
+- 📱 **Mobile Experience**: Touch-optimized interactions
+- � **Documentation**: Setup guides and customization examples
+
+### **Recent Updates**
+- ✅ **Fixed Navigation**: Implemented always-visible navbar with smooth scrolling
+- ✅ **Theme System**: Added persistent light/dark mode toggle
+- ✅ **Mobile Responsive**: Optimized navigation drawer and mobile experience
 
 ---
 
@@ -214,8 +259,12 @@ This project is open source and available under the [MIT License](LICENSE).
 
 <div align="center">
 
-**🌟 Star this repo if it helps accelerate your development workflow!**
+**� Star this repo if ThunderStack powers your gaming portfolio!**
 
-[🐛 Report Bug](https://github.com/centmarde/thesis-template-web-reusable/issues) • [💡 Request Feature](https://github.com/centmarde/thesis-template-web-reusable/issues) • [💬 Discussions](https://github.com/centmarde/thesis-template-web-reusable/discussions)
+[🐛 Report Bug](https://github.com/centmarde/thunder-stack-studio-portfolio/issues) • [💡 Request Feature](https://github.com/centmarde/thunder-stack-studio-portfolio/issues) • [💬 Discussions](https://github.com/centmarde/thunder-stack-studio-portfolio/discussions)
+
+### 🚀 **Ready to showcase your games?**
+
+ThunderStack provides everything you need to create a professional gaming studio portfolio with modern web technologies.
 
 </div>
