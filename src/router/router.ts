@@ -2,16 +2,10 @@ import { setupLayouts } from "virtual:generated-layouts";
 import { createRouter, createWebHistory } from "vue-router";
 
 import Hero from "@/pages/index.vue";
-import Auth from "@/pages/Auth.vue";
-import Dashboard from "@/pages/HomeView.vue";
 import NotFound from "@/pages/NotFound.vue";
-import ForbiddenView from "@/pages/ForbiddenView.vue";
 import VisionMissionView from "@/pages/VisionMissionView.vue";
 import AboutUsView from "@/pages/AboutUsView.vue";
 import PortfolioView from "@/pages/PortfolioView.vue";
-import AdminUserRolesView from "@/pages/admin/AdminUserRolesView.vue";
-import UserManagementView from "@/pages/admin/UserManagementView.vue";
-import AnnouncementsView from "@/pages/admin/AnnouncementsView.vue";
 
 /**
  * Route definitions for the application
@@ -20,10 +14,6 @@ const routes = setupLayouts([
   {
     path: "/",
     component: Hero,
-  },
-  {
-    path: "/auth",
-    component: Auth,
   },
   {
     path: "/vision-mission",
@@ -36,30 +26,6 @@ const routes = setupLayouts([
   {
     path: "/portfolio",
     component: PortfolioView,
-  },
-  {
-    path: "/account/home",
-    component: Dashboard,
-    meta: { requiresAuth: true },
-  },
-  {
-    path: "/admin/user-roles",
-    component: AdminUserRolesView,
-    meta: { requiresAuth: true },
-  },
-  {
-    path: "/admin/user-management",
-    component: UserManagementView,
-    meta: { requiresAuth: true }
-  },
-  {
-    path: "/admin/announcements",
-    component: AnnouncementsView,
-    meta: { requiresAuth: true }
-  },
-  {
-    path: "/forbidden",
-    component: ForbiddenView,
   },
   {
     path: "/:pathMatch(.*)*",
