@@ -1,0 +1,183 @@
+{
+  "title": "Thunder Stack Studio",
+  "description": "A pioneering game development studio based in Butuan City, Caraga Region, at Caraga State University main campus. We create quality games inspired by Filipino cultural traditions and heritage, leading the game development community in the region.",
+  "subtitle": "Pioneering Filipino Cultural Gaming Excellence",
+  "backgroundImage": {
+    "src": "/images/markup.png",
+    "alt": "Abstract academic background with geometric patterns",
+    "overlay": {
+      "enabled": true,
+      "color": "rgba(63, 81, 181, 0.15)",
+      "opacity": 0.8
+    }
+  },
+  "features": [
+    {
+      "title": "Filipino Cultural Gaming",
+      "description": "Authentic games inspired by traditional Filipino cultural practices, folklore, and heritage from the Caraga region and beyond.",
+      "icon": "mdi-gamepad-variant"
+    },
+    {
+      "title": "Community Leadership",
+      "description": "Pioneering the game development community in Caraga region through innovation, mentorship, and collaborative game creation projects.",
+      "icon": "mdi-account-group"
+    },
+    {
+      "title": "Quality Game Development",
+      "description": "High-quality game production using modern development tools and techniques while preserving authentic Filipino storytelling and gameplay.",
+      "icon": "mdi-trophy"
+    },
+    {
+      "title": "Regional Gaming Hub",
+      "description": "Establishing Butuan City and Caraga State University as a center of excellence for game development in the Philippines.",
+      "icon": "mdi-map-marker-star"
+    }
+  ],
+  "version": "1.0.0",
+  "author": "Thunder Stack Studio",
+  "lastUpdated": "2026-01-02",
+  "theme": {
+    "primaryColor": "#3F51B5",
+    "secondaryColor": "#7688e0"
+  },
+  "ui": {
+    "showNavbar": true,
+    "showFooter": true,
+    "_comment": "Select the navbar component to use: 1, 2, 3, or 4",
+    "navbarComponent": "3",
+    "_footerComment": "Select the footer component to use: 1 or 2",
+    "footerComponent": "1",
+    "navbar": {
+      "title": "Thunder Stack Studio",
+      "icon": "mdi-gamepad-variant",
+      "logo": {
+        "src": "/src/assets/logo.svg",
+        "alt": "Thunder Stack Studio Logo",
+        "width": 32,
+        "height": 32
+      },
+      "color": "primary",
+      "elevation": 2,
+      "density": "comfortable",
+      "navigationItems": [
+        {
+          "_comment": "dont change this",
+          "label": "Games",
+          "action": "scroll",
+          "target": "features"
+        },
+        {
+          "label": "Vision & Mission",
+          "action": "scroll",
+          "target": "vision-mission"
+        },
+        {
+          "label": "About Us",
+          "action": "scroll",
+          "target": "about"
+        }
+      ],
+      "ctaButton": {
+        "label": "Join Studio",
+        "variant": "outlined",
+        "color": "on-primary",
+        "action": "navigate",
+        "_comment": "dont change this /auth cause it is linked to the auth page",
+        "target": "/auth"
+      }
+    },
+    "footer": {
+      "companyName": "Thunder Stack Studio",
+      "tagline": "Pioneering Filipino cultural gaming excellence",
+      "icon": "mdi-gamepad-variant-outline",
+      "color": "grey-darken-3",
+      "copyright": "Thunder Stack Studio. All rights reserved.",
+      "socialLinks": [
+        {
+          "platform": "github",
+          "icon": "mdi-github",
+          "url": "https://github.com",
+          "label": "GitHub"
+        },
+        {
+          "platform": "twitter",
+          "icon": "mdi-twitter",
+          "url": "https://twitter.com",
+          "label": "Twitter"
+        },
+        {
+          "platform": "linkedin",
+          "icon": "mdi-linkedin",
+          "url": "https://linkedin.com",
+          "label": "LinkedIn"
+        }
+      ],
+      "technologies": [
+        {
+          "name": "Unity",
+          "icon": "mdi-unity",
+          "color": "purple"
+        },
+        {
+          "name": "Game Development",
+          "icon": "mdi-gamepad-variant",
+          "color": "blue"
+        },
+        {
+          "name": "Filipino Culture",
+          "icon": "mdi-flag",
+          "color": "red"
+        },
+        {
+          "name": "Caraga Region",
+          "icon": "mdi-map-marker",
+          "color": "green"
+        }
+      ],
+      "studioTeam": {
+        "enabled": true,
+        "title": "Game Development Team",
+        "subtitle": "Meet the passionate developers creating Filipino cultural games",
+        "members": [
+          {
+            "name": "Game Director",
+            "role": "Creative Direction & Game Design",
+            "avatar": "/images/team/director.jpg"
+          },
+          {
+            "name": "Cultural Consultant",
+            "role": "Filipino Heritage & Storytelling",
+            "avatar": "/images/team/cultural-consultant.jpg"
+          },
+          {
+            "name": "Lead Developer",
+            "role": "Programming & Technical Design",
+            "avatar": "/images/team/lead-developer.jpg"
+          }
+        ]
+      }
+    }
+  },
+  "authPage": {
+    "title": "Welcome to Thunder Stack Studio",
+    "subtitle": "Join our game development community and create Filipino cultural gaming experiences",
+    "layout": {
+      "quotePosition": "right"
+    },
+    "quote": {
+      "text": "Sa pag-unlad ng kultura, nagsisimula ang pagbabago.",
+      "author": "Filipino Proverb",
+      "source": "Traditional Wisdom",
+      "motivationalText": "Join us in preserving and celebrating Filipino culture through innovative game development. Every great game starts with a passionate community."
+    },
+    "backgroundImage": {
+      "src": "/images/auth-background.jpg",
+      "alt": "Gaming workspace with Filipino cultural elements and modern technology",
+      "overlay": {
+        "enabled": true,
+        "color": "rgba(63, 81, 181, 0.1)",
+        "opacity": 0.9
+      }
+    }
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "studioInfo": {
+    "foundedYear": "2026",
+    "location": "Butuan City, Caraga Region",
+    "university": "Caraga State University",
+    "campus": "Main Campus",
+    "focus": "Filipino Cultural Gaming",
+    "stats": {
+      "teamMembers": "4+",
+      "region": "1",
+      "culturalStories": "∞"
+    }
+  },
+  "storySection": {
+    "title": "Our Story",
+    "subtitle": "The journey of Thunder Stack Studio",
+    "content": [
+      "Thunder Stack Studio was born from a passion to preserve and celebrate the rich cultural heritage of the Philippines through the medium of interactive gaming. Founded in 2026 at Caraga State University's main campus in Butuan City, we recognized the untapped potential of Filipino folklore, traditions, and cultural narratives in the global gaming landscape.",
+      "Our journey began with a simple yet powerful vision: to create games that not only entertain but also educate players about the beauty and depth of Filipino culture. We saw an opportunity to bridge the gap between traditional storytelling and modern interactive entertainment, making our heritage accessible to both local and international audiences.",
+      "As pioneers in the Caraga region's game development community, we're committed to nurturing local talent and establishing Butuan City as a hub for cultural gaming innovation. Our team combines technical expertise with deep cultural knowledge to create authentic, engaging experiences that honor our ancestors while inspiring future generations."
+    ]
+  },
+  "teamMembers": [
+    {
+      "name": "Maria Santos",
+      "role": "Studio Director & Creative Lead",
+      "description": "Cultural anthropologist turned game director, specializing in Filipino folklore adaptation",
+      "avatar": "/images/team/maria-santos.jpg",
+      "fallbackIcon": "mdi-account-star",
+      "skills": ["Game Design", "Cultural Research", "Creative Direction"],
+      "social": {
+        "linkedin": "#",
+        "email": "maria@thunderstack.ph"
+      }
+    },
+    {
+      "name": "Jose Dela Cruz",
+      "role": "Lead Developer",
+      "description": "Full-stack developer with expertise in game engines and cultural preservation technology",
+      "avatar": "/images/team/jose-delacruz.jpg",
+      "fallbackIcon": "mdi-code-tags",
+      "skills": ["Unity Development", "C# Programming", "System Architecture"],
+      "social": {
+        "github": "#",
+        "linkedin": "#",
+        "email": "jose@thunderstack.ph"
+      }
+    },
+    {
+      "name": "Ana Reyes",
+      "role": "Cultural Consultant & Story Designer",
+      "description": "Caraga region historian and indigenous knowledge keeper, ensuring authentic representation",
+      "avatar": "/images/team/ana-reyes.jpg",
+      "fallbackIcon": "mdi-book-open-variant",
+      "skills": ["Cultural Research", "Narrative Design", "Indigenous Knowledge"],
+      "social": {
+        "linkedin": "#",
+        "email": "ana@thunderstack.ph"
+      }
+    },
+    {
+      "name": "Carlos Mendoza",
+      "role": "Art Director",
+      "description": "Visual artist specializing in Filipino cultural motifs and modern game art",
+      "avatar": "/images/team/carlos-mendoza.jpg",
+      "fallbackIcon": "mdi-palette",
+      "skills": ["2D/3D Art", "Cultural Design", "Visual Storytelling"],
+      "social": {
+        "behance": "#",
+        "instagram": "#",
+        "email": "carlos@thunderstack.ph"
+      }
+    }
+  ],
+  "achievements": [
+    {
+      "title": "Regional Gaming Hub",
+      "description": "Establishing Caraga as a center for cultural gaming innovation",
+      "icon": "mdi-map-marker-star",
+      "color": "primary"
+    },
+    {
+      "title": "Cultural Preservation",
+      "description": "Digitally preserving Mindanao's rich cultural heritage",
+      "icon": "mdi-shield-star",
+      "color": "success"
+    },
+    {
+      "title": "Community Building",
+      "description": "Fostering a thriving game development ecosystem in the region",
+      "icon": "mdi-account-group",
+      "color": "info"
+    },
+    {
+      "title": "Educational Impact",
+      "description": "Teaching Filipino culture through interactive experiences",
+      "icon": "mdi-school",
+      "color": "warning"
+    }
+  ],
+  "contact": {
+    "email": "hello@thunderstack.ph",
+    "phone": "+63 (XXX) XXX-XXXX",
+    "address": "Caraga State University, Butuan City, Agusan del Norte, Philippines"
+  },
+  "socialMedia": [
+    {
+      "platform": "Facebook",
+      "icon": "mdi-facebook",
+      "url": "https://facebook.com/thunderstackstudio",
+      "color": "blue"
+    },
+    {
+      "platform": "Twitter",
+      "icon": "mdi-twitter",
+      "url": "https://twitter.com/thunderstackph",
+      "color": "light-blue"
+    },
+    {
+      "platform": "Instagram",
+      "icon": "mdi-instagram",
+      "url": "https://instagram.com/thunderstackstudio",
+      "color": "pink"
+    },
+    {
+      "platform": "LinkedIn",
+      "icon": "mdi-linkedin",
+      "url": "https://linkedin.com/company/thunderstack-studio",
+      "color": "blue-darken-2"
+    },
+    {
+      "platform": "GitHub",
+      "icon": "mdi-github",
+      "url": "https://github.com/thunderstackstudio",
+      "color": "grey-darken-3"
+    }
+  ],
+  "meta": {
+    "version": "1.0.0",
+    "lastUpdated": "2026-01-02",
+    "author": "Thunder Stack Studio"
+  }
+}

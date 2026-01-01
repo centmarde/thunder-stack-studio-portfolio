@@ -1,0 +1,223 @@
+{
+  "studioPortfolio": {
+    "title": "Our Works & Portfolio",
+    "subtitle": "Showcasing Thunder Stack Studio's cultural gaming excellence",
+    "description": "Explore our collection of Filipino cultural games and projects that preserve heritage while delivering engaging gameplay experiences."
+  },
+  "featuredGames": [
+    {
+      "id": 1,
+      "title": "Bayanihan Legends",
+      "subtitle": "Community Building Adventure",
+      "description": "An immersive RPG that teaches the Filipino spirit of Bayanihan through cooperative gameplay and traditional storytelling.",
+      "status": "In Development",
+      "category": "RPG",
+      "platforms": ["PC", "Mobile"],
+      "culturalElements": ["Bayanihan Spirit", "Folk Tales", "Traditional Music"],
+      "technologies": ["Unity", "C#", "Firebase"],
+      "images": {
+        "thumbnail": "/images/games/bayanihan-legends-thumb.jpg",
+        "screenshots": [
+          "/images/games/bayanihan-legends-1.jpg",
+          "/images/games/bayanihan-legends-2.jpg"
+        ]
+      },
+      "fallbackIcon": "mdi-account-group",
+      "primaryColor": "success",
+      "progress": 75,
+      "releaseDate": "Q3 2026"
+    },
+    {
+      "id": 2,
+      "title": "Alamat Chronicles",
+      "subtitle": "Mythology Action Game",
+      "description": "Experience Philippine mythology through an action-adventure game featuring legendary creatures and epic battles from Filipino folklore.",
+      "status": "Concept",
+      "category": "Action-Adventure",
+      "platforms": ["PC", "Console"],
+      "culturalElements": ["Philippine Mythology", "Epic Tales", "Legendary Creatures"],
+      "technologies": ["Unreal Engine", "Blueprint", "Multiplayer"],
+      "images": {
+        "thumbnail": "/images/games/alamat-chronicles-thumb.jpg",
+        "screenshots": [
+          "/images/games/alamat-chronicles-1.jpg",
+          "/images/games/alamat-chronicles-2.jpg"
+        ]
+      },
+      "fallbackIcon": "mdi-sword-cross",
+      "primaryColor": "warning",
+      "progress": 25,
+      "releaseDate": "Q2 2027"
+    },
+    {
+      "id": 3,
+      "title": "Tinikling Rhythm",
+      "subtitle": "Cultural Dance Game",
+      "description": "A rhythm-based game that teaches traditional Filipino dances through interactive gameplay and beautiful music.",
+      "status": "Prototype",
+      "category": "Rhythm",
+      "platforms": ["Mobile", "VR"],
+      "culturalElements": ["Traditional Dance", "Folk Music", "Cultural Education"],
+      "technologies": ["Unity", "AR/VR", "Motion Tracking"],
+      "images": {
+        "thumbnail": "/images/games/tinikling-rhythm-thumb.jpg",
+        "screenshots": [
+          "/images/games/tinikling-rhythm-1.jpg",
+          "/images/games/tinikling-rhythm-2.jpg"
+        ]
+      },
+      "fallbackIcon": "mdi-music-note",
+      "primaryColor": "purple",
+      "progress": 40,
+      "releaseDate": "Q1 2027"
+    },
+    {
+      "id": 4,
+      "title": "Caraga Explorer",
+      "subtitle": "Educational Adventure",
+      "description": "Explore the beautiful Caraga region through an educational game that showcases local landmarks, culture, and history.",
+      "status": "Released",
+      "category": "Educational",
+      "platforms": ["PC", "Mobile", "Web"],
+      "culturalElements": ["Regional History", "Local Landmarks", "Cultural Sites"],
+      "technologies": ["Vue.js", "WebGL", "Progressive Web App"],
+      "images": {
+        "thumbnail": "/images/games/caraga-explorer-thumb.jpg",
+        "screenshots": [
+          "/images/games/caraga-explorer-1.jpg",
+          "/images/games/caraga-explorer-2.jpg"
+        ]
+      },
+      "fallbackIcon": "mdi-compass",
+      "primaryColor": "info",
+      "progress": 100,
+      "releaseDate": "Released 2026",
+      "downloads": 15000,
+      "rating": 4.7
+    }
+  ],
+  "achievements": [
+    {
+      "id": 1,
+      "title": "Best Cultural Game",
+      "organization": "Philippine Game Development Awards",
+      "year": 2026,
+      "description": "Recognized for excellence in preserving Filipino culture through gaming",
+      "project": "Caraga Explorer",
+      "icon": "mdi-trophy",
+      "color": "warning",
+      "category": "Award"
+    },
+    {
+      "id": 2,
+      "title": "Rising Studio of the Year",
+      "organization": "Mindanao Tech Awards",
+      "year": 2026,
+      "description": "Honored as the most promising game development studio in Mindanao",
+      "project": "Thunder Stack Studio",
+      "icon": "mdi-star",
+      "color": "success",
+      "category": "Recognition"
+    },
+    {
+      "id": 3,
+      "title": "15K+ Downloads",
+      "organization": "Milestone Achievement",
+      "year": 2026,
+      "description": "Successfully reached over 15,000 downloads across all platforms",
+      "project": "Caraga Explorer",
+      "icon": "mdi-download",
+      "color": "info",
+      "category": "Milestone"
+    },
+    {
+      "id": 4,
+      "title": "University Partnership",
+      "organization": "Caraga State University",
+      "year": 2026,
+      "description": "Established official partnership for game development education and research",
+      "project": "Educational Initiative",
+      "icon": "mdi-school",
+      "color": "purple",
+      "category": "Partnership"
+    },
+    {
+      "id": 5,
+      "title": "Community Impact Award",
+      "organization": "Butuan City Cultural Board",
+      "year": 2026,
+      "description": "Recognized for significant contribution to preserving and promoting local culture",
+      "project": "Cultural Gaming Initiative",
+      "icon": "mdi-heart",
+      "color": "red",
+      "category": "Community"
+    },
+    {
+      "id": 6,
+      "title": "Innovation in Education",
+      "organization": "CHED Innovation Awards",
+      "year": 2026,
+      "description": "Awarded for innovative use of gaming in cultural education",
+      "project": "Educational Game Series",
+      "icon": "mdi-lightbulb",
+      "color": "orange",
+      "category": "Innovation"
+    }
+  ],
+  "statistics": {
+    "totalDownloads": 15000,
+    "activeProjects": 4,
+    "averageRating": 4.7,
+    "communityMembers": 1200,
+    "culturalElementsPreserved": 25,
+    "educationalPartnerships": 3
+  },
+  "categories": [
+    {
+      "name": "RPG",
+      "description": "Role-playing games with cultural storytelling",
+      "icon": "mdi-shield-sword",
+      "color": "success"
+    },
+    {
+      "name": "Action-Adventure",
+      "description": "Action-packed adventures in mythological settings",
+      "icon": "mdi-sword-cross",
+      "color": "warning"
+    },
+    {
+      "name": "Rhythm",
+      "description": "Music and dance games celebrating Filipino arts",
+      "icon": "mdi-music-note",
+      "color": "purple"
+    },
+    {
+      "name": "Educational",
+      "description": "Learning games for cultural preservation",
+      "icon": "mdi-school",
+      "color": "info"
+    }
+  ],
+  "upcomingReleases": [
+    {
+      "title": "Bayanihan Legends",
+      "releaseWindow": "Q3 2026",
+      "status": "In Development"
+    },
+    {
+      "title": "Tinikling Rhythm",
+      "releaseWindow": "Q1 2027",
+      "status": "Prototype"
+    },
+    {
+      "title": "Alamat Chronicles",
+      "releaseWindow": "Q2 2027",
+      "status": "Concept"
+    }
+  ],
+  "meta": {
+    "version": "1.0.0",
+    "lastUpdated": "2026-01-02",
+    "author": "Thunder Stack Studio"
+  }
+}

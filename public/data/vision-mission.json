@@ -1,0 +1,63 @@
+{
+  "vision": {
+    "title": "Our Vision",
+    "statement": "To be the leading game development studio in the Philippines, pioneering the preservation and celebration of Filipino cultural heritage through innovative and engaging digital experiences.",
+    "icon": "mdi-eye-outline",
+    "color": "primary"
+  },
+  "mission": {
+    "title": "Our Mission", 
+    "statement": "To create world-class games that authentically represent Filipino culture, folklore, and traditions while building a thriving game development community in the Caraga region and inspiring the next generation of Filipino game developers.",
+    "icon": "mdi-flag-outline",
+    "color": "secondary"
+  },
+  "values": [
+    {
+      "title": "Cultural Authenticity",
+      "description": "We honor and respect the rich traditions of Filipino culture in every game we create",
+      "icon": "mdi-account-heart",
+      "color": "success"
+    },
+    {
+      "title": "Innovation Excellence",
+      "description": "We push the boundaries of game development while maintaining cultural integrity",
+      "icon": "mdi-lightbulb-on",
+      "color": "warning"
+    },
+    {
+      "title": "Community Building",
+      "description": "We foster collaboration and growth within the Caraga region's gaming ecosystem",
+      "icon": "mdi-account-group",
+      "color": "info"
+    },
+    {
+      "title": "Educational Impact",
+      "description": "We believe games can be powerful tools for learning and cultural preservation",
+      "icon": "mdi-school",
+      "color": "purple"
+    },
+    {
+      "title": "Regional Pride", 
+      "description": "We celebrate Mindanao's heritage and put Caraga region on the global gaming map",
+      "icon": "mdi-map-marker-star",
+      "color": "teal"
+    },
+    {
+      "title": "Quality Craftsmanship",
+      "description": "We deliver polished, professional games that compete on the world stage",
+      "icon": "mdi-trophy",
+      "color": "orange"
+    }
+  ],
+  "callToAction": {
+    "title": "Join Our Journey",
+    "subtitle": "Be part of the movement to showcase Filipino culture through world-class games. Together, we'll put Caraga region on the global gaming map.",
+    "buttonText": "Get Involved",
+    "buttonIcon": "mdi-hand-heart"
+  },
+  "meta": {
+    "version": "1.0.0",
+    "lastUpdated": "2026-01-02",
+    "author": "Thunder Stack Studio"
+  }
+}
