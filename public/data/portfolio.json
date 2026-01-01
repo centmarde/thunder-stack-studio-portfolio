@@ -7,7 +7,7 @@
   "featuredGames": [
     {
       "id": 1,
-      "title": "Bayanihan Legends",
+      "title": "Sinawali Showdown",
       "subtitle": "Community Building Adventure",
       "description": "An immersive RPG that teaches the Filipino spirit of Bayanihan through cooperative gameplay and traditional storytelling.",
       "status": "In Development",
@@ -29,7 +29,7 @@
     },
     {
       "id": 2,
-      "title": "Alamat Chronicles",
+      "title": "Bigkis",
       "subtitle": "Mythology Action Game",
       "description": "Experience Philippine mythology through an action-adventure game featuring legendary creatures and epic battles from Filipino folklore.",
       "status": "Concept",
@@ -48,59 +48,13 @@
       "primaryColor": "warning",
       "progress": 25,
       "releaseDate": "Q2 2027"
-    },
-    {
-      "id": 3,
-      "title": "Tinikling Rhythm",
-      "subtitle": "Cultural Dance Game",
-      "description": "A rhythm-based game that teaches traditional Filipino dances through interactive gameplay and beautiful music.",
-      "status": "Prototype",
-      "category": "Rhythm",
-      "platforms": ["Mobile", "VR"],
-      "culturalElements": ["Traditional Dance", "Folk Music", "Cultural Education"],
-      "technologies": ["Unity", "AR/VR", "Motion Tracking"],
-      "images": {
-        "thumbnail": "/images/games/tinikling-rhythm-thumb.jpg",
-        "screenshots": [
-          "/images/games/tinikling-rhythm-1.jpg",
-          "/images/games/tinikling-rhythm-2.jpg"
-        ]
-      },
-      "fallbackIcon": "mdi-music-note",
-      "primaryColor": "purple",
-      "progress": 40,
-      "releaseDate": "Q1 2027"
-    },
-    {
-      "id": 4,
-      "title": "Caraga Explorer",
-      "subtitle": "Educational Adventure",
-      "description": "Explore the beautiful Caraga region through an educational game that showcases local landmarks, culture, and history.",
-      "status": "Released",
-      "category": "Educational",
-      "platforms": ["PC", "Mobile", "Web"],
-      "culturalElements": ["Regional History", "Local Landmarks", "Cultural Sites"],
-      "technologies": ["Vue.js", "WebGL", "Progressive Web App"],
-      "images": {
-        "thumbnail": "/images/games/caraga-explorer-thumb.jpg",
-        "screenshots": [
-          "/images/games/caraga-explorer-1.jpg",
-          "/images/games/caraga-explorer-2.jpg"
-        ]
-      },
-      "fallbackIcon": "mdi-compass",
-      "primaryColor": "info",
-      "progress": 100,
-      "releaseDate": "Released 2026",
-      "downloads": 15000,
-      "rating": 4.7
     }
   ],
   "achievements": [
     {
       "id": 1,
-      "title": "Best Cultural Game",
-      "organization": "Philippine Game Development Awards",
+      "title": "4th Placer",
+      "organization": "Philippine National Pitching Competition",
       "year": 2026,
       "description": "Recognized for excellence in preserving Filipino culture through gaming",
       "project": "Caraga Explorer",
@@ -110,8 +64,8 @@
     },
     {
       "id": 2,
-      "title": "Rising Studio of the Year",
-      "organization": "Mindanao Tech Awards",
+      "title": "3rd Placer",
+      "organization": "DOST LVL UP Game Development Challenge",
       "year": 2026,
       "description": "Honored as the most promising game development studio in Mindanao",
       "project": "Thunder Stack Studio",
@@ -121,8 +75,8 @@
     },
     {
       "id": 3,
-      "title": "15K+ Downloads",
-      "organization": "Milestone Achievement",
+      "title": "Champion",
+      "organization": "DICT Regional Pitching Competition",
       "year": 2026,
       "description": "Successfully reached over 15,000 downloads across all platforms",
       "project": "Caraga Explorer",
@@ -132,8 +86,8 @@
     },
     {
       "id": 4,
-      "title": "University Partnership",
-      "organization": "Caraga State University",
+      "title": "Game Development Awards",
+      "organization": "Philippine National Pitching Competition",
       "year": 2026,
       "description": "Established official partnership for game development education and research",
       "project": "Educational Initiative",
@@ -154,8 +108,8 @@
     },
     {
       "id": 6,
-      "title": "Innovation in Education",
-      "organization": "CHED Innovation Awards",
+      "title": "Trailblazer Award",
+      "organization": "Philippine National Pitching Competition",
       "year": 2026,
       "description": "Awarded for innovative use of gaming in cultural education",
       "project": "Educational Game Series",

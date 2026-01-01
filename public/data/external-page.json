@@ -51,7 +51,7 @@
       "title": "Thunder Stack Studio",
       "icon": "mdi-gamepad-variant",
       "logo": {
-        "src": "/src/assets/logo.svg",
+        "src": "/src/assets/logo.png",
         "alt": "Thunder Stack Studio Logo",
         "width": 32,
         "height": 32

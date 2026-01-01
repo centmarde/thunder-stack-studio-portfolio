@@ -8,15 +8,22 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
+    AboutUsSection: typeof import('./components/landing/AboutUsSection.vue')['default']
     BottomBar: typeof import('./components/common/BottomBar.vue')['default']
+    ErrorState: typeof import('./components/landing/ErrorState.vue')['default']
+    FeaturesSection: typeof import('./components/landing/FeaturesSection.vue')['default']
+    HeroSection: typeof import('./components/landing/HeroSection.vue')['default']
     InnerNavBar: typeof import('./components/common/InnerNavBar.vue')['default']
+    LoadingState: typeof import('./components/landing/LoadingState.vue')['default']
     OuterFooter: typeof import('./components/common/outerFooters/OuterFooter.vue')['default']
     OuterFooter2: typeof import('./components/common/outerFooters/OuterFooter2.vue')['default']
     OuterNavbar1: typeof import('./components/common/outerNavbars/OuterNavbar1.vue')['default']
     OuterNavbar2: typeof import('./components/common/outerNavbars/OuterNavbar2.vue')['default']
     OuterNavbar3: typeof import('./components/common/outerNavbars/OuterNavbar3.vue')['default']
     OuterNavbar4: typeof import('./components/common/outerNavbars/OuterNavbar4.vue')['default']
+    PortfolioSection: typeof import('./components/landing/PortfolioSection.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    VisionMissionSection: typeof import('./components/landing/VisionMissionSection.vue')['default']
   }
 }
