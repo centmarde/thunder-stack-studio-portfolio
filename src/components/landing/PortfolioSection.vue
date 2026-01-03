@@ -28,11 +28,15 @@ interface Game {
 }
 
 interface Achievement {
+  id: number
   title: string
+  organization: string
+  year: number
   description: string
+  project: string
   icon: string
+  color: string
   category: string
-  year: number | string
 }
 
 interface PortfolioData {
@@ -125,22 +129,15 @@ const getGameCardCols = computed(() => {
 })
 
 const getAchievementCardCols = computed(() => {
-  const count = Math.min(achievementsCount.value, 3) // Max 3 items shown
-  switch (count) {
-    case 1: return { cols: 12, sm: 12, md: 8, lg: 6 } // Single card, centered
-    case 2: return { cols: 12, sm: 12, md: 6, lg: 6 } // Two cards, 50% each
-    case 3:
-    default: return { cols: 12, sm: 6, md: 4, lg: 4 } // Three cards
-  }
+  // Always display 3 cards per row on medium screens and above
+  // Responsive for smaller screens
+  return { cols: 12, sm: 6, md: 4, lg: 4 } // 1 per row on xs, 2 per row on sm, 3 per row on md+
 })
 </script>
 
 <template>
   <section id="portfolio" class="portfolio-section py-16">
     <v-container>
-
-
-
 
       <!-- Featured Games -->
       <div class="text-center mb-8">
@@ -240,7 +237,7 @@ const getAchievementCardCols = computed(() => {
 
       <v-row justify="center">
         <v-col
-          v-for="achievement in data?.achievements?.slice(0, 3)"
+          v-for="achievement in data?.achievements"
           :key="achievement.title"
           v-bind="getAchievementCardCols"
           class="mb-4"
@@ -254,28 +251,43 @@ const getAchievementCardCols = computed(() => {
               <v-icon
                 :icon="achievement.icon"
                 size="48"
-                color="primary"
+                :color="achievement.color || 'primary'"
                 class="mb-3"
               />
               <h4 class="text-h6 font-weight-bold mb-2">{{ achievement.title }}</h4>
+              <p v-if="achievement.organization" class="text-subtitle-2 text-medium-emphasis mb-2">
+                {{ achievement.organization }}
+              </p>
               <p class="text-body-2 text-medium-emphasis mb-3">
-                {{ achievement.description.slice(0, 100) }}...
+                {{ achievement.description.length > 100 ? achievement.description.slice(0, 100) + '...' : achievement.description }}
               </p>
               <v-chip
-                color="primary"
+                :color="achievement.color || 'primary'"
                 size="small"
                 variant="outlined"
+                class="mb-2"
               >
                 {{ achievement.category }}
               </v-chip>
-              <div class="text-caption text-medium-emphasis mt-2">{{ achievement.year }}</div>
+              <div class="text-caption text-medium-emphasis mt-auto">{{ achievement.year }}</div>
             </v-card-text>
           </v-card>
         </v-col>
       </v-row>
 
       <!-- Portfolio CTA -->
-
+      <div class="text-center mt-8">
+        <v-btn
+          size="large"
+          variant="elevated"
+          color="primary"
+          prepend-icon="mdi-briefcase-variant"
+          rounded="pill"
+          :to="{ path: '/portfolio' }"
+        >
+          View Full Portfolio
+        </v-btn>
+      </div>
     </v-container>
 
     <!-- Fullscreen Game Screenshots Dialog -->
@@ -517,6 +529,17 @@ const getAchievementCardCols = computed(() => {
   padding: 4px !important;
 }
 
+/* Achievement Cards Grid */
+.achievement-card {
+  min-height: 250px;
+}
+
+.achievement-card .v-card-text {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
 /* Mobile responsiveness */
 @media (max-width: 1024px) {
   .game-details-sidebar {
@@ -540,6 +563,10 @@ const getAchievementCardCols = computed(() => {
   .navigation-btn {
     width: 40px;
     height: 40px;
+  }
+
+  .achievement-card {
+    min-height: 220px;
   }
 }
 </style>
