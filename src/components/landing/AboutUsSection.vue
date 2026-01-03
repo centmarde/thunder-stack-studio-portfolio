@@ -128,19 +128,7 @@ const getTeamCardCols = computed(() => {
         </v-col>
       </v-row>
 
-      <!-- About Us CTA -->
-      <div class="text-center mt-8">
-        <v-btn
-          size="large"
-          variant="elevated"
-          color="primary"
-          prepend-icon="mdi-account-group"
-          rounded="pill"
-          :to="{ path: '/about-us' }"
-        >
-          Learn More About Us
-        </v-btn>
-      </div>
+
     </v-container>
   </section>
 </template>
