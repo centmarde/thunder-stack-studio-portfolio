@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-  import { onMounted } from 'vue'
+  import { onMounted, ref } from 'vue'
   import { useLandingController } from '@/controller/landingController'
   import { useVisionMissionController } from '@/controller/visionMissionController'
   import { useAboutUsController } from '@/controller/aboutUsController'
@@ -15,7 +15,8 @@
     AboutUsSection,
     PortfolioSection,
     LoadingState,
-    ErrorState
+    ErrorState,
+    WorkInProgressDialog
   } from '@/components/landing'
 
   // Data controllers
@@ -26,6 +27,9 @@
 
   // Navigation functions
   const { scrollToFeatures, scrollToVisionMission, scrollToAbout, scrollToPortfolio, openGithub, openDocumentation } = useScrollNavigation()
+
+  // Dialog state
+  const showWipDialog = ref(false)
 
   // Initialize data
   onMounted(async () => {
@@ -51,6 +55,12 @@
   <OuterLayoutWrapper>
     <template #content>
       <div class="landing-view">
+        <!-- Work In Progress Dialog -->
+        <WorkInProgressDialog
+          v-model="showWipDialog"
+          :auto-open="true"
+          :delay="1500"
+        />
         <!-- Loading State -->
         <LoadingState
           v-if="loading || visionMissionLoading || aboutUsLoading || portfolioLoading"

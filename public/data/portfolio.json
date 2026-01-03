@@ -16,10 +16,16 @@
       "culturalElements": ["Bayanihan Spirit", "Folk Tales", "Traditional Music"],
       "technologies": ["Unity", "C#", "Firebase"],
       "images": {
-        "thumbnail": "/images/games/bayanihan-legends-thumb.jpg",
+        "thumbnail": "/assets/Siniwali/S1.png",
         "screenshots": [
-          "/images/games/bayanihan-legends-1.jpg",
-          "/images/games/bayanihan-legends-2.jpg"
+          "/assets/Siniwali/S1.png",
+          "/assets/Siniwali/S2.png",
+          "/assets/Siniwali/S3.png",
+          "/assets/Siniwali/S4.png",
+          "/assets/Siniwali/S5.png",
+          "/assets/Siniwali/S6.png",
+          "/assets/Siniwali/S7.png",
+          "/assets/Siniwali/S8.png"
         ]
       },
       "fallbackIcon": "mdi-account-group",
