@@ -42,7 +42,7 @@
       "category": "Action-Adventure",
       "platforms": ["PC"],
       "culturalElements": ["Philippine Mythology", "Epic Tales", "Legendary Creatures"],
-      "technologies": ["Unity", "Blueprint", "Multiplayer", "Supabase"],
+      "technologies": ["Unity","Multiplayer", "Supabase"],
       "images": {
         "thumbnail": "/assets/Bigkis/b1.png",
         "screenshots": [
