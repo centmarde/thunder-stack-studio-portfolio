@@ -25,5 +25,6 @@ declare module 'vue' {
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     VisionMissionSection: typeof import('./components/landing/VisionMissionSection.vue')['default']
+    WorkInProgressDialog: typeof import('./components/landing/WorkInProgressDialog.vue')['default']
   }
 }
