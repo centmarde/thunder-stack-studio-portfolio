@@ -99,19 +99,7 @@ defineProps<Props>()
           </v-col>
         </v-row>
 
-        <!-- Core Values Preview -->
-        <div class="text-center mt-12">
-          <v-btn
-            size="large"
-            variant="elevated"
-            color="primary"
-            prepend-icon="mdi-compass-outline"
-            rounded="pill"
-            :to="{ path: '/vision-mission' }"
-          >
-            View Our Core Values
-          </v-btn>
-        </div>
+
       </v-container>
     </v-sheet>
   </section>

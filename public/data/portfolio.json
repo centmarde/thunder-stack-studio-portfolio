@@ -14,7 +14,7 @@
       "category": "RPG",
       "platforms": ["PC", "Mobile"],
       "culturalElements": ["Bayanihan Spirit", "Folk Tales", "Traditional Music"],
-      "technologies": ["Unity", "C#", "Firebase"],
+      "technologies": ["Vue3", "JavaScript", "Supabase"],
       "images": {
         "thumbnail": "/assets/Siniwali/S1.png",
         "screenshots": [
@@ -40,14 +40,24 @@
       "description": "Experience Philippine mythology through an action-adventure game featuring legendary creatures and epic battles from Filipino folklore.",
       "status": "Concept",
       "category": "Action-Adventure",
-      "platforms": ["PC", "Console"],
+      "platforms": ["PC"],
       "culturalElements": ["Philippine Mythology", "Epic Tales", "Legendary Creatures"],
-      "technologies": ["Unreal Engine", "Blueprint", "Multiplayer"],
+      "technologies": ["Unity","Multiplayer", "Supabase"],
       "images": {
-        "thumbnail": "/images/games/alamat-chronicles-thumb.jpg",
+        "thumbnail": "/assets/Bigkis/b1.png",
         "screenshots": [
-          "/images/games/alamat-chronicles-1.jpg",
-          "/images/games/alamat-chronicles-2.jpg"
+          "/assets/Bigkis/b1.png",
+          "/assets/Bigkis/b2.png",
+          "/assets/Bigkis/b3.png",
+          "/assets/Bigkis/b4.png",
+          "/assets/Bigkis/b5.png",
+          "/assets/Bigkis/b6.png",
+          "/assets/Bigkis/b7.png",
+          "/assets/Bigkis/b8.png",
+          "/assets/Bigkis/b9.png",
+          "/assets/Bigkis/b10.png",
+          "/assets/Bigkis/b11.png",
+          "/assets/Bigkis/b12.png"
         ]
       },
       "fallbackIcon": "mdi-sword-cross",
