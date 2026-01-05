@@ -9,6 +9,7 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     AboutUsSection: typeof import('./components/landing/AboutUsSection.vue')['default']
+    AchievementCertificateDialog: typeof import('./components/landing/AchievementCertificateDialog.vue')['default']
     BottomBar: typeof import('./components/common/BottomBar.vue')['default']
     ErrorState: typeof import('./components/landing/ErrorState.vue')['default']
     FeaturesSection: typeof import('./components/landing/FeaturesSection.vue')['default']

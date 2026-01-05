@@ -76,7 +76,8 @@
       "project": "Caraga Explorer",
       "icon": "mdi-trophy",
       "color": "warning",
-      "category": "Award"
+      "category": "Award",
+      "certificateImage": "/assets/certificates/pnpc-4th-place-certificate.jpg"
     },
     {
       "id": 2,
@@ -87,7 +88,8 @@
       "project": "Thunder Stack Studio",
       "icon": "mdi-star",
       "color": "success",
-      "category": "Award"
+      "category": "Award",
+      "certificateImage": "/assets/certificates/dost-3rd-place-certificate.jpg"
     },
     {
       "id": 3,
@@ -98,7 +100,8 @@
       "project": "Caraga Explorer",
       "icon": "mdi-download",
       "color": "info",
-      "category": "Award"
+      "category": "Award",
+      "certificateImage": "/assets/certificates/dict-champion-certificate.jpg"
     },
     {
       "id": 4,
@@ -109,7 +112,8 @@
       "project": "Educational Initiative",
       "icon": "mdi-school",
       "color": "purple",
-      "category": "Award"
+      "category": "Award",
+      "certificateImage": "/assets/certificates/pnpc-game-dev-award-certificate.jpg"
     },
     {
       "id": 5,
@@ -120,7 +124,8 @@
       "project": "Cultural Gaming Initiative",
       "icon": "mdi-heart",
       "color": "red",
-      "category": "Award"
+      "category": "Award",
+      "certificateImage": "/assets/certificates/community-impact-certificate.jpg"
     },
     {
       "id": 6,
@@ -131,7 +136,8 @@
       "project": "Educational Game Series",
       "icon": "mdi-lightbulb",
       "color": "orange",
-      "category": "Award"
+      "category": "Award",
+      "certificateImage": "/assets/certificates/trailblazer-award-certificate.jpg"
     }
   ],
   "statistics": {

@@ -1,5 +1,6 @@
 <script lang="ts" setup>
 import { computed, ref, onMounted, onUnmounted } from 'vue'
+import AchievementCertificateDialog from './AchievementCertificateDialog.vue'
 
 interface Statistics {
   totalDownloads: number
@@ -37,6 +38,7 @@ interface Achievement {
   icon: string
   color: string
   category: string
+  certificateImage?: string
 }
 
 interface PortfolioData {
@@ -51,16 +53,26 @@ interface Props {
 
 const props = defineProps<Props>()
 
-// Dialog state
-const dialog = ref(false)
+// Game Dialog state
+const gameDialog = ref(false)
 const selectedGame = ref<Game | null>(null)
 const currentImageIndex = ref(0)
 
-// Open dialog with selected game
+// Achievement Dialog state
+const achievementDialog = ref(false)
+const selectedAchievement = ref<Achievement | null>(null)
+
+// Open game dialog with selected game
 const openGameDialog = (game: Game) => {
   selectedGame.value = game
   currentImageIndex.value = 0
-  dialog.value = true
+  gameDialog.value = true
+}
+
+// Open achievement dialog with selected achievement
+const openAchievementDialog = (achievement: Achievement) => {
+  selectedAchievement.value = achievement
+  achievementDialog.value = true
 }
 
 // Navigate through screenshots
@@ -87,7 +99,7 @@ const currentScreenshot = computed(() => {
 
 // Keyboard navigation
 const handleKeydown = (event: KeyboardEvent) => {
-  if (!dialog.value) return
+  if (!gameDialog.value) return
 
   switch (event.key) {
     case 'ArrowLeft':
@@ -100,7 +112,7 @@ const handleKeydown = (event: KeyboardEvent) => {
       break
     case 'Escape':
       event.preventDefault()
-      dialog.value = false
+      gameDialog.value = false
       break
   }
 }
@@ -246,6 +258,8 @@ const getAchievementCardCols = computed(() => {
             class="h-100 text-center hover-card achievement-card"
             elevation="4"
             rounded="lg"
+            style="cursor: pointer;"
+            @click="openAchievementDialog(achievement)"
           >
             <v-card-text class="pa-6">
               <v-icon
@@ -290,9 +304,15 @@ const getAchievementCardCols = computed(() => {
       </div>
     </v-container>
 
+    <!-- Achievement Certificate Dialog -->
+    <AchievementCertificateDialog
+      v-model="achievementDialog"
+      :achievement="selectedAchievement"
+    />
+
     <!-- Fullscreen Game Screenshots Dialog -->
     <v-dialog
-      v-model="dialog"
+      v-model="gameDialog"
       fullscreen
       hide-overlay
       transition="dialog-bottom-transition"
@@ -307,7 +327,7 @@ const getAchievementCardCols = computed(() => {
         >
           <v-btn
             icon="mdi-close"
-            @click="dialog = false"
+            @click="gameDialog = false"
           />
           <v-toolbar-title>{{ selectedGame.title }}</v-toolbar-title>
           <v-spacer />
