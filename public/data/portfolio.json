@@ -137,7 +137,7 @@
       "icon": "mdi-lightbulb",
       "color": "orange",
       "category": "Award",
-      "certificateImage": "/assets/certificates/trailblazer-award-certificate.jpg"
+      "certificateImage": "/assets/certificates/trailBlazer.jpg"
     }
   ],
   "statistics": {

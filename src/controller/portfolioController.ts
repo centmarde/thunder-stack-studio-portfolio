@@ -33,6 +33,7 @@ export interface Achievement {
   icon: string
   color: string
   category: 'Award' | 'Recognition' | 'Milestone' | 'Partnership' | 'Community' | 'Innovation'
+  certificateImage?: string
 }
 
 export interface Statistics {
