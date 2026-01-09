@@ -77,7 +77,7 @@
       "icon": "mdi-trophy",
       "color": "warning",
       "category": "Award",
-      "certificateImage": "/assets/certificates/pnpc-4th-place-certificate.jpg"
+      "certificateImage": "/assets/certificates/4th.jpg"
     },
     {
       "id": 2,
@@ -89,7 +89,7 @@
       "icon": "mdi-star",
       "color": "success",
       "category": "Award",
-      "certificateImage": "/assets/certificates/dost-3rd-place-certificate.jpg"
+      "certificateImage": "/assets/certificates/game.png"
     },
     {
       "id": 3,
@@ -101,7 +101,7 @@
       "icon": "mdi-download",
       "color": "info",
       "category": "Award",
-      "certificateImage": "/assets/certificates/dict-champion-certificate.jpg"
+      "certificateImage": "/assets/certificates/Champion.jpg"
     },
     {
       "id": 4,
@@ -113,22 +113,11 @@
       "icon": "mdi-school",
       "color": "purple",
       "category": "Award",
-      "certificateImage": "/assets/certificates/pnpc-game-dev-award-certificate.jpg"
+      "certificateImage": "/assets/certificates/GameDevelopment.jpg"
     },
+  
     {
       "id": 5,
-      "title": "Community Impact Award",
-      "organization": "Butuan City Cultural Board",
-      "year": 2026,
-      "description": "Recognized for significant contribution to preserving and promoting local culture",
-      "project": "Cultural Gaming Initiative",
-      "icon": "mdi-heart",
-      "color": "red",
-      "category": "Award",
-      "certificateImage": "/assets/certificates/community-impact-certificate.jpg"
-    },
-    {
-      "id": 6,
       "title": "Trailblazer Award",
       "organization": "Philippine National Pitching Competition",
       "year": 2026,
